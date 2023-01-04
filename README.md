@@ -19,7 +19,7 @@ Your goal is to create a mobile app that displays the current weather and foreca
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
 
-## Design ans API references
+## Design and API references
 
 Choose one of the free designs:
 - [Design #1](https://www.figma.com/file/Aek8A3M8n7eE2jHMQRM4I4/Weather-App-(Uplabs))
