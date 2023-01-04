@@ -1,4 +1,4 @@
-# Weather App
+# Weather Mobile App
 
 ![Weather App](https://colorfully.eu/wp-content/uploads/2012/06/weather-forecast-facebook-cover.jpg)
 
