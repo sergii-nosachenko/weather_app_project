@@ -1,5 +1,7 @@
 # Weather App
 
+![Weather App](https://colorfully.eu/wp-content/uploads/2012/06/weather-forecast-facebook-cover.jpg)
+
 Your goal is to create a mobile app that displays the current weather and forecast for the selected location.
 
 ## Technologie stack
@@ -17,7 +19,7 @@ Your goal is to create a mobile app that displays the current weather and foreca
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
 
-## Design reference
+## Design ans API references
 
 Choose one of the free designs:
 - [Design #1](https://www.figma.com/file/Aek8A3M8n7eE2jHMQRM4I4/Weather-App-(Uplabs))
@@ -97,17 +99,17 @@ Choose one of free location API:
     - Date
 4. Update weather every 5 minutes
 5. Update weather on the Update icon click (disable when data is loading, show animation)
-6. Open the Settings screen on the Settings icon click
-7. Open the Location screen on Current location click
+6. Open the **Settings screen** on the Settings icon click
+7. Open the **Location screen** on Current location click
 
-### Current location screen
+### Location screen
 
 1. Show input where the user can type the location
-2. Show the back button so the user can return to the main screen
+2. Show the back button so the user can return to the **Main screen**
 3. Use debounce or submit button to call API (to minimize requests count)
 4. Show location suggestions from API as a List
 5. Show the current device geolocation option as the first item in the list (if available)
-6. After the user selects the location save it to persistent storage and return to the main screen. Update weather and forecast.
+6. After the user selects the location save it to persistent storage and return to the **Main screen**. Update weather and forecast.
 
 ### Settings screen
 
@@ -118,7 +120,7 @@ Choose one of free location API:
   - Precipitation: mm, inches ... (depends on API)
   - Language (* optional, depends on API)
 2. On option change save it to persistent storage immediately (no need to confirm)
-3. On the back button press return to the main screen. If settings have been changed - update the forecast.
+3. On the back button press return to the **Main screen**. If settings have been changed - update the forecast.
 
 ## Roadmap
 
