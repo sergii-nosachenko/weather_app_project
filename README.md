@@ -19,6 +19,25 @@ Your goal is to create a mobile app that displays the current weather and foreca
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
 
+## Roadmap
+
+- Setup your development environment
+- Initialize empty project
+- Create a GitHub repo and connect it with your project
+- Install all necessary dependencies
+- Configure typescript, linter, prettier, etc
+- Create a dummy screen with the `Hello world!` text and run it. Check if all works correctly.
+- Choose a template, icons, color theme, and APIs (read next chapter)
+- Register and get API keys. Test APIs at their playgrounds or use [Postman](https://www.postman.com/)
+- Write a step-by-step plan for your development. **Add a realistic deadline to your calendar!** It will take 2-3 working days to complete this task.
+- Start developing, feature-by-feature, commit-by-commit (remember, you need to have a nice commit history!).
+- Test your application
+- When completed, create an extended `readme.md` file ([example](https://gist.github.com/solaryasha/0fb46a864b490afd618f2c4751a65041), [constructor](https://readme.so/))
+- Deploy your project so it can be viewed online (Expo provides you with a great tool to deploy)
+- Ask the mentor to give you feedback
+- Add project to your portfolio
+- Profit!
+
 ## Design and API references
 
 Choose one of the free designs:
@@ -121,22 +140,3 @@ Choose one of free location API:
   - Language (* optional, depends on API)
 2. On option change save it to persistent storage immediately (no need to confirm)
 3. On the back button press return to the **Main screen**. If settings have been changed - update the forecast.
-
-## Roadmap
-
-- Setup your development environment
-- Initialize empty project
-- Create a GitHub repo and connect it with your project
-- Install all necessary dependencies
-- Configure typescript, linter, prettier, etc
-- Create a dummy screen with the `Hello world!` text and run it. Check if all works correctly.
-- Choose a template, icons, color theme, and APIs.
-- Register and get API keys. Test APIs at their playgrounds or use [Postman](https://www.postman.com/)
-- Write a step-by-step plan for your development. **Add a realistic deadline to your calendar!** It will take 2-3 working days to complete this task.
-- Start developing, feature-by-feature, commit-by-commit (remember, you need to have a nice commit history!).
-- Test your application
-- When completed, create an extended `readme.md` file ([example](https://gist.github.com/solaryasha/0fb46a864b490afd618f2c4751a65041), [constructor](https://readme.so/))
-- Deploy your project so it can be viewed online (Expo provides you with a great tool to deploy)
-- Ask the mentor to give you feedback
-- Add project to your portfolio
-- Profit!
