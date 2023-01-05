@@ -7,15 +7,7 @@ Your goal is to create a mobile app that displays the current weather and foreca
 ## Technologie stack
 
 - App logic: [React Native](https://reactnative.dev/)
-  
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Native in 100 seconds](https://www.youtube.com/watch?v=gvkqT_Uoahw)
-  
-- Data fetching & store: [React Query](https://react-query-v3.tanstack.com/)
-
-  [Tutorial for using with React Native](https://blog.logrocket.com/react-query-state-management-react-native/)
-  
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Query in 100 Seconds](https://www.youtube.com/watch?v=novnyCaa7To)
-  
+- Data fetching & store: [React Query](https://react-query-v3.tanstack.com/), [Tutorial for using with React Native](https://blog.logrocket.com/react-query-state-management-react-native/)
 - Persistent app storage: [React Native Async Storage](https://github.com/react-native-async-storage/async-storage)
 - Project management:
   - React Native CLI - harder to setup and work with but better for big projects
@@ -24,6 +16,12 @@ Your goal is to create a mobile app that displays the current weather and foreca
     - [Setup process](https://reactnative.dev/docs/environment-setup)
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
+
+#### Intro videos
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Native in 100 seconds](https://www.youtube.com/watch?v=gvkqT_Uoahw)
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Query in 100 Seconds](https://www.youtube.com/watch?v=novnyCaa7To)
 
 ## Roadmap
 
