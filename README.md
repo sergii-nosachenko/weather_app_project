@@ -12,42 +12,40 @@ Your goal is to create a mobile app that displays the current weather and foreca
 - Project management:
   - React Native CLI - harder to setup and work with but better for big projects
   - Expo CLI - easier to set up and work with, but has some limitations (recommended option)
-  
-  [Pros & cons for both CLIs](https://levelup.gitconnected.com/react-native-cli-vs-expo-cli-which-one-do-i-choose-bdf02ea457bf)
-  
-  [Setup process](https://reactnative.dev/docs/environment-setup)
+    - [Pros & cons for both CLIs](https://levelup.gitconnected.com/react-native-cli-vs-expo-cli-which-one-do-i-choose-bdf02ea457bf)
+    - [Setup process](https://reactnative.dev/docs/environment-setup)
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
 
 ## Roadmap
 
 - Setup your development environment
-- Initialize empty project
-- Create a GitHub repo and connect it with your project
+- Initialize an empty project
+- Create a GitHub repo and connect it to your project
 - Install all necessary dependencies
 - Configure typescript, linter, prettier, etc
 - Create a dummy screen with the `Hello world!` text and run it. Check if all works correctly.
-- Choose a template, icons, color theme, and APIs (read next chapter)
+- Choose a template, icons, color theme, and APIs (read the next chapter)
 - Register and get API keys. Test APIs at their playgrounds or use [Postman](https://www.postman.com/)
 - Write a step-by-step plan for your development. **Add a realistic deadline to your calendar!** It will take 2-3 working days to complete this task.
-- Start developing, feature-by-feature, commit-by-commit (remember, you need to have a nice commit history!).
+- Start the development, feature-by-feature, commit-by-commit (remember, you need to have a nice commit history!).
 - Test your application
 - When completed, create an extended `readme.md` file ([example](https://gist.github.com/solaryasha/0fb46a864b490afd618f2c4751a65041), [constructor](https://readme.so/))
 - Deploy your project so it can be viewed online (Expo provides you with a great tool to deploy)
-- Ask the mentor to give you feedback
+- Ask a mentor to give you feedback
 - Add project to your portfolio
 - Profit!
 
 ## Design and API references
 
-Choose one of the free designs:
+Choose one of these free designs:
 - [Design #1](https://www.figma.com/file/Aek8A3M8n7eE2jHMQRM4I4/Weather-App-(Uplabs))
 - [Design #2](https://www.figma.com/file/GkAQzGJz7htZbeDXflaxln/Weather-App-(Community))
 - [Design #3](https://www.figma.com/file/gT7RpnSY3Sd1LMOVn0mJ0M/Weather-Mobile-App-Design-(Community))
 - [Design #4](https://uifresh.net/product/weather-forecast-app-ui-template/)
 - [Find your own](https://www.google.com/search?q=figma+weather+app+template&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiz-YHAza38AhVE6CoKHRD8BXUQ_AUoAXoECAEQAw&biw=1920&bih=1001&dpr=1)
 
-Choose one of the free icon packs:
+Choose a free icon pack:
 - [Icons #1](https://www.figma.com/file/bulpuHDnPD5GswA7FJgFa1/Weather-Iconset-Frosted-Glass-(Community))
 - [Icons #2](https://www.figma.com/file/bLzxGXN9VIz2TQTQB06icM/Weather-icons-(Community))
 - [Icons #3](https://www.figma.com/file/VpBA1whOlRtlwHbBkTjpag/Weather-API-Icons-(Community))
@@ -67,13 +65,13 @@ Generate color theme for your app: [Use palette generator](https://coolors.co/ge
 
 **Don't use the original Figma template colors! Your app needs to be unique, so use different colors!**
 
-Choose one of the free weather API:
+Choose a free weather API:
 
 - [Weather API](https://www.weatherapi.com/)
 - [OpenWeatherMap API](https://openweathermap.org/)
 - [Open Meteo API](https://open-meteo.com/)
 
-Choose one of free location API:
+Choose a free location API:
 
 - [Positionstack](https://positionstack.com/)
 - [LocationIQ](https://locationiq.com/)
@@ -82,8 +80,8 @@ Choose one of free location API:
 
 ### Main screen
 
-1. **First run only**. Detect current user location on load. If error - use default (Kyiv, Ukraine).
-2. Get user location from app persistent storage. On error use case #1.
+1. **First run only**. Detect current user location on load. On error - use default (Kyiv, Ukraine).
+2. Get user location from the app persistent storage. On error use case #1.
 3. Screen consists of the next parts:
   - Header:
     - Logo
@@ -123,10 +121,10 @@ Choose one of free location API:
 
 ### Location screen
 
-1. Show input where the user can type the location
+1. Show the input where the user can type a location
 2. Show the back button so the user can return to the **Main screen**
-3. Use debounce or submit button to call API (to minimize requests count)
-4. Show location suggestions from API as a List
+3. Use debounce or add a submit button to call API (to minimize requests count)
+4. Show a list of location suggestions from the API
 5. Show the current device geolocation option as the first item in the list (if available)
 6. After the user selects the location save it to persistent storage and return to the **Main screen**. Update weather and forecast.
 
@@ -139,4 +137,4 @@ Choose one of free location API:
   - Precipitation: mm, inches ... (depends on API)
   - Language (* optional, depends on API)
 2. On option change save it to persistent storage immediately (no need to confirm)
-3. On the back button press return to the **Main screen**. If settings have been changed - update the forecast.
+3. On the back button click return to the **Main screen**. If settings have been changed - update the forecast.
