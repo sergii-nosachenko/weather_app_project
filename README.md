@@ -17,11 +17,10 @@ Your goal is to create a mobile app that displays the current weather and foreca
 - [Typescript](https://docs.expo.dev/guides/typescript/)
 - [ESLint, Prettier, and Pre-commit](https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/)
 
-#### Intro videos
+#### ![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) Intro videos
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Native in 100 seconds](https://www.youtube.com/watch?v=gvkqT_Uoahw)
-
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) React Query in 100 Seconds](https://www.youtube.com/watch?v=novnyCaa7To)
+- [React Native in 100 seconds](https://www.youtube.com/watch?v=gvkqT_Uoahw)
+- [React Query in 100 Seconds](https://www.youtube.com/watch?v=novnyCaa7To)
 
 ## Roadmap
 
